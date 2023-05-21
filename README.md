@@ -1,6 +1,6 @@
 # pythonprojects
 
-A repository to store simple automation projects built in Python.
+A repository to store simple projects built in Python.
 
 
 # CharCount.py

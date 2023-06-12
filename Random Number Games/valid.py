@@ -132,7 +132,7 @@ def get_date(prompt="Please enter a date: "):
             print("Invalid date selection. Please enter a month and day. (ex. May 23)")
 
 
-def get_int_below_100(prompt="Please enter a number: "):
+def get_int_below_1000(prompt="Please enter a number: "):
     """
     Function to prompt for and return a valid integer.
     :param prompt: string Optional string to use as prompt
@@ -142,9 +142,9 @@ def get_int_below_100(prompt="Please enter a number: "):
     while True:
         try:
             num = int(input(prompt))
-            if 0 < num < 101:
+            if 0 < num < 1001:
                 return num
             else:
-                print("Invalid percentage. Please enter a number between 1 and 100.")
+                print("Invalid guess. Please enter a number between 1 and 1000.")
         except:
-            print("Invalid percentage. Please enter a number between 1 and 100.")
+            print("Invalid guess. Please enter a number between 1 and 1000.")

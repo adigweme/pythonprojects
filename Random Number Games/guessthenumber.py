@@ -1,7 +1,7 @@
 # *************************************************************************************
 #
-#
-#
+# Created by: Patrick Adigweme
+# Date: June 11, 2023
 #
 #
 #
@@ -14,7 +14,7 @@ import valid as v
 
 def main():
     """
-    This program is random number guessing game created for practice and
+    This program is a random number guessing game created for practice and
     simple enjoyment.
     :return:
     """

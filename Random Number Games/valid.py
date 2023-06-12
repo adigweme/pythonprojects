@@ -148,3 +148,20 @@ def get_int_below_1000(prompt="Please enter a number: "):
                 print("Invalid guess. Please enter a number between 1 and 1000.")
         except:
             print("Invalid guess. Please enter a number between 1 and 1000.")
+
+
+def guess_letter(prompt="Please enter a letter: "):
+    """
+    Function ot prompt for an return a letter.
+    :param prompt: string Optional string to use as prompt
+    :return: single character as a string
+    """
+    while True:
+        try:
+            letter = input(prompt)
+            if letter.isalpha() and 0 < len(letter) < 2:
+                return letter.lower()
+            else:
+                print("Invalid guess. Please enter a letter of the alphabet.")
+        except:
+            print("Invalid guess. Please enter a letter of the alphabet.")
